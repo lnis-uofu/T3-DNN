@@ -16,7 +16,7 @@ We like to train our models on a remote server (like lnissrv4.eng.utah.edu). Fol
 docker build -t tf2.7.0-gpu-jupyter .
 ```
 
-2. If you want to make full use of a CUDA-enabled GPU, install the [NVIDIA Container Toolkit] (https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda) on the server.
+2. If you want to make full use of a CUDA-enabled GPU, install the [NVIDIA Container Toolkit](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda) on the server.
 
 3. ssh into the server setting port fowarding so you can access the Jupyter Notebook from your local address
 
